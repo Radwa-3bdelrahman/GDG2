@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    display: block;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: 0%;
+    color: #fff;
+    border-radius: 5px;
+    height: 500px;
+    
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 2;
+}
+
+.card button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sedan {
+    background-color: #f28c28;
+}
+
+.suv {
+    background-color: #00796b;
+}
+
+.luxury {
+    background-color: #004d40;
+}
